@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(19, 21, 22);
+  color: #eaeaea;
+}
+
+.container {
+  text-align: center;
+  background-color: rgb(26, 28, 30);
+  border-radius: 10px;
+  padding: 40px 40px 40px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.profile-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+  color: #eaeaea;
+  background-color: #003e88;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+  transition: background-color 0.3s ease;
+}
+
+.link i {
+  margin-right: 10px;
+}
+
+.link:hover {
+  background-color: rgb(0, 58, 116);
+}
+
+.company-image {
+  width: 200px;
+}
