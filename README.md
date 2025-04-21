@@ -1,4 +1,4 @@
-<h1 align="center"> Linketree </h1>
+<h1 align="center"> Linktree </h1>
 
 ### 💻 Sobre o projeto
 
